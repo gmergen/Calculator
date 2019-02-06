@@ -19,7 +19,10 @@ namespace Calculator
             throw new NotImplementedException();
         }
 
-
+        public int Divide(int number1, int number2)
+        {
+            throw new NotImplementedException();
+        }
 
 
 
