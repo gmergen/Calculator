@@ -9,27 +9,27 @@ namespace Calculator
             return 0;
         }
 
-        public int Subtract(int number1, int number2)
+        public int Subtract(int a, int b)
         {
             throw new NotImplementedException();
         }
 
-        public int Multiply(int number1, int number2)
+        public int Multiply(int a, int b)
         {
             throw new NotImplementedException();
         }
 
-        public int Divide(int number1, int number2)
+        public int Divide(int a, int b)
         {
             throw new NotImplementedException();
         }
 
-        public int Exponents(int number1, int number2)
+        public int Exponents(int a, int b)
         {
             throw new NotImplementedException();
         }
 
-        public int Factorials(int number1, int number2)
+        public int Factorials(int a, int b)
         {
             throw new NotImplementedException();
         }
