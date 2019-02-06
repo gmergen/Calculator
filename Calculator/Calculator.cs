@@ -5,6 +5,8 @@ namespace Calculator
     {
         public Calculator()
         {
+            Calculator.add();
+            throw new NotImplementedException
         }
     }
 }
