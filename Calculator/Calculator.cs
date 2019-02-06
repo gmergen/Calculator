@@ -1,12 +1,22 @@
 ﻿using System;
+using System.Linq;
 namespace Calculator
 {
     public class Calculator
     {
-        public Calculator()
+        public int Add(params int[] numbers)
         {
-            Calculator.add();
-            throw new NotImplementedException
+            return numbers.Sum();
         }
+
+
+
+
+
+
+
+
+
+
     }
 }
