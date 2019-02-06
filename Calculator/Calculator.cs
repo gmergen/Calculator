@@ -9,7 +9,10 @@ namespace Calculator
             return numbers.Sum();
         }
 
-
+        public int Subtract(params int [] numbers)
+        {
+            throw new NotImplementedException();
+        }
 
 
 
