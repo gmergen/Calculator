@@ -29,6 +29,10 @@ namespace Calculator
             throw new NotImplementedException();
         }
 
+        public int Factorials(int number1, int number2)
+        {
+            throw new NotImplementedException();
+        }
 
     }
 }
