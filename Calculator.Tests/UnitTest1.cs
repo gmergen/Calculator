@@ -20,5 +20,19 @@ namespace Calculator.Tests
             //Assert
             Assert.Equal(expected, actual);
         }
+
+        [Theory]
+        [InlineData(2, 1, 1)]
+        [InlineData(6, 3, 3)]
+        [InlineData(10, 5, 5)]
+        public void SubtractTest(int a, int b, int expected)
+        {
+            Calculator calculator = new Calculator();
+
+            int actual = calculator.Subtract(a, b);
+
+            Assert.Equal(expected, actual);
+        }
+
     }
 }
