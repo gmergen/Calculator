@@ -4,9 +4,9 @@ namespace Calculator
 {
     public class Calculator
     {
-        public int Add(params int[] numbers)
+        public int Add(int a, int b)
         {
-            return numbers.Sum();
+            return 0;
         }
 
         public int Subtract(int number1, int number2)
