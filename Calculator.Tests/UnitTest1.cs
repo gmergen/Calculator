@@ -30,5 +30,18 @@ namespace Calculator.Tests
             Assert.Equal(expected, actual);
         }
 
+        [Theory]
+        [InlineData(3, 3, 6)]
+        public void MultiplyTest(int a, int b, int expected)
+        {
+            Calculator calculator = new Calculator();
+
+            int actual = calculator.Multiply(a, b);
+
+            Assert.Equal(expected, actual);
+        }
+
+
+
     }
 }
