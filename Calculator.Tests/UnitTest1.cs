@@ -63,8 +63,5 @@ namespace Calculator.Tests
 
             Assert.Equal(expected, actual);
         }
-
-
-
     }
 }
