@@ -52,7 +52,17 @@ namespace Calculator.Tests
             Assert.Equal(expected, actual);
         }
 
+        [Theory]
+        [InlineData (5, 25)]
+        [InlineData(10, 100)]
+        public void ExponenetsTest(int a, int b, int expected)
+        {
+            Calculator calulator = new Calculator();
 
+            int actual = calulator.Exponents(a, b);
+
+            Assert.Equal(expected, actual);
+        }
 
 
 
