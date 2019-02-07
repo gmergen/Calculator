@@ -21,7 +21,7 @@ namespace Calculator
 
         public int Divide(int a, int b)
         {
-            throw new NotImplementedException();
+            return a / b;
         }
 
         public int Exponents(int a, int b)
