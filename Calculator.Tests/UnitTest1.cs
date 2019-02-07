@@ -53,13 +53,14 @@ namespace Calculator.Tests
         }
 
         [Theory]
-        [InlineData (5, 25)]
-        [InlineData(10, 100)]
-        public void ExponenetsTest(int a, int b, int expected)
+        [InlineData (5, 2, 25)]
+        [InlineData(3, 3, 27)]
+        [InlineData (2, 4, 16)]
+        public void ExponenetsTest(double a, double b, double expected)
         {
             Calculator calulator = new Calculator();
 
-            int actual = calulator.Exponents(a, b);
+            double actual = calulator.Exponents(a, b);
 
             Assert.Equal(expected, actual);
         }
