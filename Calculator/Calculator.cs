@@ -26,7 +26,7 @@ namespace Calculator
 
         public int Exponents(int a, int b)
         {
-            throw new NotImplementedException();
+            return a * a;
         }
 
         public int Factorials(int a, int b)
