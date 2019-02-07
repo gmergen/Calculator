@@ -24,9 +24,9 @@ namespace Calculator
             return a / b;
         }
 
-        public int Exponents(int a, int b)
+        public double Exponents(double a, double b)
         {
-            return a * a;
+            return Math.Pow(a, b);
         }
 
         public int Factorials(int a, int b)
